@@ -9,3 +9,4 @@ Things you may want to cover:
 
 You need to set HMAC_SECRET 
 
+bundle install

@@ -4,6 +4,7 @@ class WelcomeController < ApplicationController
     if cookies[:myjwt] 
       token = cookies[:myjwt]
       @decoded_token = JWT.decode token, Rails.configuration.x.oauth.jwt_secret, true, { algorithm: 'HS256' }
+      @res = RestClient.get('http://localhost:3000/messages', headers={})
       @signed_in = true
     else 
       client_id = Rails.configuration.x.oauth.client_id = '0ef466ba-0505-4150-9b34-da0895a98cae'
