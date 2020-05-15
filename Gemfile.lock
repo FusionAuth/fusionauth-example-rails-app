@@ -214,6 +214,7 @@ DEPENDENCIES
   byebug
   capybara (>= 2.15)
   jbuilder (~> 2.7)
+  jwt
   listen (~> 3.2)
   oauth2
   puma (~> 4.1)
