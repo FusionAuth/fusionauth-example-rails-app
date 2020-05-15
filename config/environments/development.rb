@@ -59,4 +59,9 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+  
+  config.x.oauth.client_id = '0ef466ba-0505-4150-9b34-da0895a98cae'
+  config.x.oauth.client_secret = 'hBWwAt32AQlfXV_pm93dkAFxd51WJhcPpfFp5_xZN6I'
+  config.x.oauth.idp_address = 'http://localhost:9011/'
+
 end
