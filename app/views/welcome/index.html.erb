@@ -1,7 +1,9 @@
 Welcome
 <% if @signed_in %>
   <%= @decoded_token[0]["email"] %>
-  <%= @res %>
+
+  <br/>
+  Your messages: <%= @res %>
 <% else %>
   unknown visitor.  Please <%= link_to 'sign in', @authurl %>
 <% end %>
