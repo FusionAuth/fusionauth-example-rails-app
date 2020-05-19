@@ -6,4 +6,7 @@ Welcome
   Your messages: <%= @res %>
 <% else %>
   unknown visitor.  Please <%= link_to 'sign in', @authurl %>
+  <% if @message %>
+  <br/>  <%= @message %>
+  <% end %>
 <% end %>

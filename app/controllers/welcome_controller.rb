@@ -9,6 +9,11 @@ class WelcomeController < ApplicationController
         @signed_in = true
       rescue JWT::DecodeError
         @signed_in = false
+        @message = "Unable to get messages."
+        @authurl = build_auth_url
+      rescue RestClient::ExceptionWithResponse
+        @message = "Unable to get messages."
+        @signed_in = false
         @authurl = build_auth_url
       end
     else 
