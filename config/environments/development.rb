@@ -60,8 +60,8 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
   
-  config.x.oauth.client_id = '0ef466ba-0505-4150-9b34-da0895a98cae'
-  config.x.oauth.client_secret = 'hBWwAt32AQlfXV_pm93dkAFxd51WJhcPpfFp5_xZN6I'
+  config.x.oauth.client_id = 'E9FDB985-9173-4E01-9D73-AC2D60D1DC8E'
+  config.x.oauth.client_secret = 'this_really_should_be_a_long_random_alphanumeric_value_but_this_still_works_dont_use_this_in_prod'
   config.x.oauth.idp_address = 'http://localhost:9011/'
   config.x.oauth.jwt_secret = ENV['HMAC_SECRET']
 
