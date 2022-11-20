@@ -6,7 +6,7 @@ You will need the following things properly installed on your computer.
 
 * [Git](http://git-scm.com/): Presumably you already have this on your machine if you are looking at this project locally; if not, use your platform's package manager to install git, and `git clone` this repo.
 * [Ruby 2.7](https://www.ruby-lang.org/): This application is configured to use Ruby (v2.7.1). Please make sure you have that version installed.
-* OPTIONAL: [Docker](https://www.docker.com): If you wish to run FusionAuth from within a Docker container.
+* OPTIONAL: [Docker](https://www.docker.com): If you wish to run FusionAuth from within a Docker container. (We assume so.)
 
 ## Installation
 * `git clone https://github.com/FusionAuth/fusionauth-example-rails-app`
