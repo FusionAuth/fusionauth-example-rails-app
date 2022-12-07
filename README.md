@@ -1,3 +1,7 @@
+# ARCHIVED
+
+This works with rails 6, but requires python2 to build the JS modules. python2 is no longer supported, so this repository is archived and won't receive further updates.
+
 # Example: Using Rails with FusionAuth
 This project contains an example project that illustrates using FusionAuth with Ruby-on-Rails, version 6.
 
